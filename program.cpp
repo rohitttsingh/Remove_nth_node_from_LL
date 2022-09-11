@@ -66,6 +66,6 @@ void printingNode(ListNode * head){
         ListNode * one = removeNthFromEnd(head,n);
         
         cout<<"[";
-        printingNode(head);
+        printingNode(one);
         cout<<"]";
     }
